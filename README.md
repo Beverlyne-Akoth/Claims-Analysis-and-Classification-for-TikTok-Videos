@@ -12,7 +12,7 @@ For the Random Forest model, the classification report showed 1922 claims, where
 The XGBoost errors tended to be false negatives. Since identifying claims was the priority, it's important that the model be good at capturing all actual claim videos. The random forest model, therefore, had better scores and is the champion model.
 
 In conclusion;
-* I can recommend this model because it performed well on both the validation and test holdout data. Furthermore, both precision and F1 scores were consistently high. The model very successfully classified claims and opinions.
-* The model's most predictive features were all related to the user engagement levels associated with each video. It was classifying videos based on how many views, likes, shares, and downloads they received.
+* The model performed extremely well on both the validation and test holdout data. Furthermore, both precision and F1 scores were consistently high. The model very successfully classified claims and opinions.
+* The model's most predictive features were all related to the user engagement levels associated with each video. The model was classifying videos based on how many views, likes, shares, and downloads they received.
 * Because the model currently performs nearly perfectly, there is no need to engineer any new features.
 * The current version of the model does not need any new features. However, it would be helpful to have the number of times the video was reported. It would also be useful to have the total number of user reports for all videos posted by each author.
