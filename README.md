@@ -4,7 +4,7 @@
 Using Python and Python libraries for data science to predict whether TikTok videos contained claims or opinions to improve the triaging process of videos for human review 
 
 # Project Overview
-The objective of the project was to analyse claims submitted by TikTok users on videos and to ascertain whether the video contains a claim or offers an opinion.
+The objective of the project is to create a model to analyse claims submitted by TikTok users on videos and to ascertain whether the video contains a claim or offers an opinion.
 The data used was a CSV file that included video details such as the video's length, text transcription, number of likes, downloads, comments, and shares, as well as video creator details, including verification status, and other relevant fields.
 To accomplish the task, EDA was done on the data, and later on, different machine learning models were fit to the data. The models used were RandomForest and XGBoost.
 The best parameters for the RF model were;
